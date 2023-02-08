@@ -11,4 +11,9 @@ class TestController {
         return "success"
     }
 
+    @GetMapping("/test2")
+    fun test2():String {
+        return "success"
+    }
+
 }
